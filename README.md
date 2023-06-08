@@ -1,5 +1,5 @@
 # Metologias Examen// Marcos Castro Rojo
-Todo está en la Branch Main y he creado pull request en la Branch EXAMEN FINAL(por si acaso)
+Todo está en la Branch Main
 Ejercicio 1
 
 Los archivos son MatrixCalculator.java y el JUNIT se llama MatrixCalculatorTest
