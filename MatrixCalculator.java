@@ -23,7 +23,7 @@ public class MatrixCalculator {
         }
     }
 
-    private static int[][] readMatrixFromFile(String fileName) throws IOException {
+    static int[][] readMatrixFromFile(String fileName) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(fileName));
         String line = reader.readLine();
         String[] dimensions = line.split(" ");
@@ -41,7 +41,7 @@ public class MatrixCalculator {
         return matrix;
     }
 
-    private static void writeMatrixToFile(int[][] matrix, String fileName) throws IOException {
+    static void writeMatrixToFile(int[][] matrix, String fileName) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter(fileName));
         writer.write(matrix.length + " " + matrix[0].length);
         writer.newLine();
