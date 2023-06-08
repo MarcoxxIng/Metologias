@@ -15,3 +15,9 @@ He ultilizado excepciones para manejar los posibles errores, como la falta de co
 
 
 ##Ejercicio 2
+
+bliblioteaarchivo --> Este código crea una instancia de Biblioteca, agrega algunos libros de ejemplo y luego llama al método guardarLibrosEnArchivo para guardar la información de los libros en un archivo llamado "libros.csv". Al igual que antes, asegúrate de tener los permisos adecuados y la ruta correcta al archivo donde deseas guardar los datos.
+
+biblioteca--> código para todo los casos de usos pedidos
+
+usuarios.txt y libros.txt --> dónde se aloja la información / csv
