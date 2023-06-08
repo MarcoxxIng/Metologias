@@ -1,7 +1,7 @@
 # Metologias Examen// Marcos Castro Rojo
 Todo está en la Branch Main
-Ejercicio 1
-
+##Ejercicio 1
+Está en zip y sino también están los archivos sueltos.
 Los archivos son MatrixCalculator.java y el JUNIT se llama MatrixCalculatorTest y otro MatrixCalculator2, en el que he creado para más robustez y más pruebas.
 
 Elige también matrices que tu quieras. Con mis matrices el resultado esperado es una 3x3 llena de 9, te paso mi archivo también solución.
@@ -11,3 +11,4 @@ El programa lee las matrices A y C de archivos de texto (matrizA.txt y matrizC.t
 He ultilizado excepciones para manejar los posibles errores, como la falta de coherencia en las dimensiones de las matrices A y C. Si las matrices no tienen las mismas dimensiones, lanzamos una excepción personalizada MatrixDimensionException(lo he puesto en inglés porque el día que practicamos las matrices vi todos los vídeos en inglés y me resulta ahora más fácil,por si piensas que me he copiado o lo que sea).
 
 
+##Ejercicio 2
