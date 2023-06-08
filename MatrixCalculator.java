@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -55,7 +54,7 @@ public class MatrixCalculator {
         writer.close();
     }
 
-    private static int[][] calculateMatrixB(int[][] matrixA, int[][] matrixC) throws MatrixDimensionException {
+    static int[][] calculateMatrixB(int[][] matrixA, int[][] matrixC) throws MatrixDimensionException {
         int rowsA = matrixA.length;
         int columnsA = matrixA[0].length;
         int rowsC = matrixC.length;
@@ -74,7 +73,7 @@ public class MatrixCalculator {
         return matrixB;
     }
 
-    private static class MatrixDimensionException extends Exception {
+    static class MatrixDimensionException extends Exception {
         public MatrixDimensionException() {
             super("Las matrices no tienen las dimensiones adecuadas");
         }
