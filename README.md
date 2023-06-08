@@ -4,7 +4,7 @@ Ejercicio 1
 
 Los archivos son MatrixCalculator.java y el JUNIT se llama MatrixCalculatorTest y otro MatrixCalculator2, en el que he creado para más robustez y más pruebas.
 
-Elige también matrices que tu quieras.
+Elige también matrices que tu quieras. Con mis matrices el resultado esperado es una 3x3 llena de 9, te paso mi archivo también solución.
 Las matrices he subido solo alguna, asi que elige las que quieras que sepas que pueden dar error para ver si las excepciones que he subido son correctas.
 El programa lee las matrices A y C de archivos de texto (matrizA.txt y matrizC.txt, respectivamente) y calcula la matriz B a partir de ellas. Escribe la matriz B o creala en un archivo de texto llamado matrizB.txt.
 
